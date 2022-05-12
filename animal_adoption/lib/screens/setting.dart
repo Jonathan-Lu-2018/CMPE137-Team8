@@ -6,6 +6,8 @@ import 'package:pet_app/utils/data.dart';
 import 'package:pet_app/widgets/custom_image.dart';
 import 'package:pet_app/widgets/icon_box.dart';
 import 'package:pet_app/widgets/setting_item.dart';
+import 'package:pet_app/screens/home.dart';
+import 'package:pet_app/screens/pet.dart';
 
 class SettingPage extends StatefulWidget {
   const SettingPage({Key? key}) : super(key: key);
@@ -96,13 +98,23 @@ class _SettingPageState extends State<SettingPage> {
               title: "Adoptions",
               leadingIcon: Icons.pets,
               leadingIconColor: green,
-              onTap: () {}),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const HomePage()),
+                );
+              }),
           SizedBox(height: 50),
           SettingItem(
               title: "Favorites",
               leadingIcon: Icons.favorite,
               leadingIconColor: red,
-              onTap: () {}),
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const PetPage()),
+                );
+              }),
           SizedBox(height: 50),
           SettingItem(
             title: "Log Out",
