@@ -54,13 +54,6 @@ class _PetDetailPageState extends State<PetDetailPage> {
         margin: EdgeInsets.only(left: 15, right: 15),
         child: Row(
           children: [
-            CustomButton(
-                width: 80,
-                height: 40,
-                icon: Icons.play_arrow,
-                title: "Play",
-                fsize: 13,
-                onTap: () {}),
             SizedBox(
               width: 15,
             ),
@@ -265,10 +258,9 @@ class _PetDetailPageState extends State<PetDetailPage> {
         children: [
           Row(
             children: [
-              CustomImage(
-                profile,
-                width: 40,
-                height: 40,
+              CircleAvatar(
+                radius: 20,
+                backgroundImage: AssetImage('assets/images/avatar.jpg'),
               ),
               SizedBox(
                 width: 10,
@@ -278,7 +270,7 @@ class _PetDetailPageState extends State<PetDetailPage> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      "Sangvaleap",
+                      "CMPE 137 Team 8",
                       style:
                           TextStyle(fontSize: 15, fontWeight: FontWeight.w500),
                     ),
@@ -292,23 +284,9 @@ class _PetDetailPageState extends State<PetDetailPage> {
                   ],
                 ),
               ),
-              IconBox(
-                child: Icon(
-                  Icons.chat,
-                  color: Colors.white,
-                ),
-                bgColor: green,
-              ),
               SizedBox(
                 width: 15,
               ),
-              CustomButton(
-                  width: 80,
-                  height: 37,
-                  bgColor: secondary,
-                  icon: Icons.call,
-                  title: "Call",
-                  onTap: () {}),
             ],
           ),
         ],

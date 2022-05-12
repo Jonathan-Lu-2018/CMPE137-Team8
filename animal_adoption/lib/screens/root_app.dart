@@ -29,14 +29,6 @@ class _RootAppState extends State<RootApp> with TickerProviderStateMixin {
       "page": PetPage(),
       "title": ""
     },
-    /*
-    {
-      "icon" : "assets/icons/chat-border.svg",
-      "active_icon" : "assets/icons/chat.svg",
-      "page" : ChatPage(),
-      "title" : ""
-    },
-    */
     {
       "icon": "assets/icons/setting-border.svg",
       "active_icon": "assets/icons/setting.svg",

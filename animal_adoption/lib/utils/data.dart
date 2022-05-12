@@ -1,4 +1,3 @@
-//var profile = "https://avatars.githubusercontent.com/u/86506519?v=4";
 var profile = "assets/images/avatar.jpg";
 
 List categories = [
@@ -19,23 +18,14 @@ List pets = [
     "location": "Fremont, California",
     "is_favorited": true,
     "description":
-        "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+        "This is an adorable puppy who loves going to Hawaii. He is a pescatarian who loves sushi and lobster.",
     "rate": 5.0,
     "id": "pid001",
     "price": "\$1,250",
-    "owner_name": "Lenexa",
-    "owner_photo": profile,
+    "owner_name": "Bill",
     "sex": "Male",
-    "age": "8 Months",
+    "age": "9 Months",
     "color": "Brown",
-    "album": [
-      "https://images.unsplash.com/photo-1558788353-f76d92427f16??ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-      "https://images.unsplash.com/photo-1541364983171-a8ba01e95cfc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-      "https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-      "https://images.unsplash.com/photo-1583511655826-05700d52f4d9?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-      "https://images.unsplash.com/photo-1591768575198-88dac53fbd0a?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-      "https://images.unsplash.com/photo-1583337130417-3346a1be7dee?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    ]
   },
   {
     "image":
@@ -139,8 +129,7 @@ List pets = [
     "name": "Mr.Incredible",
     "location": "Fremont, California",
     "is_favorited": false,
-    "description":
-        "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+    "description": "Family guy who loves stopping crime.",
     "rate": 4.5,
     "id": "pid001",
     "price": "\$1,050",

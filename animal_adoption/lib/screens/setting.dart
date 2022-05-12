@@ -91,12 +91,6 @@ class _SettingPageState extends State<SettingPage> {
               ],
             ),
           ),
-          // SizedBox(height: 30),
-          // SettingItem(
-          //     title: "Appearance",
-          //     leadingIcon: Icons.dark_mode_outlined,
-          //     leadingIconColor: blue,
-          //     onTap: () {}),
           SizedBox(height: 50),
           SettingItem(
               title: "Adoptions",
@@ -110,12 +104,6 @@ class _SettingPageState extends State<SettingPage> {
               leadingIconColor: red,
               onTap: () {}),
           SizedBox(height: 50),
-          // SettingItem(
-          //     title: "Privacy",
-          //     leadingIcon: Icons.privacy_tip_outlined,
-          //     leadingIconColor: orange,
-          //     onTap: () {}),
-          // SizedBox(height: 10),
           SettingItem(
             title: "Log Out",
             leadingIcon: Icons.logout_outlined,
