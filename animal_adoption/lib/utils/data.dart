@@ -20,7 +20,7 @@ List pets = [
     "is_favorited": true,
     "description":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-    "rate": 4.5,
+    "rate": 5.0,
     "id": "pid001",
     "price": "\$1,250",
     "owner_name": "Lenexa",
@@ -47,7 +47,7 @@ List pets = [
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
     "rate": 4.4,
     "id": "pid001",
-    "price": "\$1,250",
+    "price": "\$280",
     "owner_name": "Jonathan",
     "owner_photo": profile,
     "sex": "Male",
@@ -69,7 +69,7 @@ List pets = [
     "is_favorited": false,
     "description":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-    "rate": 4.5,
+    "rate": 4.9,
     "id": "pid001",
     "price": "\$1,250",
     "owner_name": "Jonathan",
@@ -93,13 +93,13 @@ List pets = [
     "is_favorited": false,
     "description":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-    "rate": 4.5,
+    "rate": 4.2,
     "id": "pid001",
-    "price": "\$1,250",
+    "price": "\$1,550",
     "owner_name": "Sal",
     "owner_photo": profile,
     "sex": "Male",
-    "age": "5 Months",
+    "age": "9 Months",
     "color": "Brown",
     "album": [
       "https://images.unsplash.com/photo-1541364983171-a8ba01e95cfc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NHx8Zm9vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
@@ -117,9 +117,9 @@ List pets = [
     "is_favorited": true,
     "description":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
-    "rate": 4.5,
+    "rate": 4.0,
     "id": "pid001",
-    "price": "\$1,250",
+    "price": "\$1,750",
     "owner_name": "Sal",
     "owner_photo": profile,
     "sex": "Female",
@@ -143,7 +143,7 @@ List pets = [
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
     "rate": 4.5,
     "id": "pid001",
-    "price": "\$1,250",
+    "price": "\$1,050",
     "owner_name": "Lenexa",
     "owner_photo": profile,
     "sex": "Male",
@@ -167,7 +167,7 @@ List pets = [
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
     "rate": 4.1,
     "id": "pid001",
-    "price": "\$1,250",
+    "price": "\$400",
     "owner_name": "Jonathan",
     "owner_photo": profile,
     "sex": "Male",
@@ -191,7 +191,7 @@ List pets = [
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
     "rate": 4.0,
     "id": "pid001",
-    "price": "\$1,250",
+    "price": "\$250",
     "owner_name": "Sal",
     "owner_photo": profile,
     "sex": "Female",
@@ -211,10 +211,10 @@ var chats = [
   {
     "image":
         "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjV8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    "fname": "John",
-    "lname": "Siphron",
-    "name": "John Siphron",
-    "skill": "Dermatologists",
+    "fname": "Jonathan",
+    "lname": "Lu",
+    "name": "Jonathan Lu",
+    "skill": "Programmer",
     "last_text":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
     "date": "1 min",
@@ -223,10 +223,10 @@ var chats = [
   {
     "image":
         "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTF8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    "fname": "Corey",
-    "lname": "Aminoff",
-    "name": "Corey Aminoff",
-    "skill": "Neurologists",
+    "fname": "Lenexa",
+    "lname": "Gonsalves",
+    "name": "Lenexa Gonsalves",
+    "skill": "Doctor",
     "last_text":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
     "date": "3 min",
@@ -235,10 +235,10 @@ var chats = [
   {
     "image":
         "https://images.unsplash.com/photo-1617069470302-9b5592c80f66?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Z2lybHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    "fname": "Siriya",
-    "lname": "Aminoff",
-    "name": "Siriya Aminoff",
-    "skill": "Neurologists",
+    "fname": "Sal",
+    "lname": "K",
+    "name": "Sal K",
+    "skill": "Neurologist",
     "last_text":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
     "date": "1 hr",
@@ -247,10 +247,10 @@ var chats = [
   {
     "image":
         "https://images.unsplash.com/photo-1545167622-3a6ac756afa4?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    "fname": "Rubin",
-    "lname": "Joe",
-    "name": "Rubin Joe",
-    "skill": "Neurologists",
+    "fname": "Ted",
+    "lname": "Mosbey",
+    "name": "Ted Mosbey",
+    "skill": "Architect",
     "last_text":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
     "date": "1 hr",
@@ -259,10 +259,10 @@ var chats = [
   {
     "image":
         "https://images.unsplash.com/photo-1564460576398-ef55d99548b2?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTZ8fHByb2ZpbGV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
-    "fname": "John",
-    "lname": "",
-    "name": "DentTerry Jew",
-    "skill": "Dentist",
+    "fname": "Marshal",
+    "lname": "Eric",
+    "name": "Marshall Eric",
+    "skill": "Lawyer",
     "last_text":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
     "date": "2 hrs",
@@ -271,10 +271,10 @@ var chats = [
   {
     "image":
         "https://images.unsplash.com/photo-1622253692010-333f2da6031d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80",
-    "fname": "John",
-    "lname": "",
-    "name": "Corey Aminoff",
-    "skill": "Neurologists",
+    "fname": "Lily",
+    "lname": "Aldrin",
+    "name": "Lily Aldrin",
+    "skill": "Teacher",
     "last_text":
         "Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document",
     "date": "5 hrs",
