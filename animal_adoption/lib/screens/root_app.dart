@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:pet_app/screens/chat.dart';
 import 'package:pet_app/screens/home.dart';
 import 'package:pet_app/screens/pet.dart';
 import 'package:pet_app/screens/setting.dart';
