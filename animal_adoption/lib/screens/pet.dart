@@ -16,16 +16,19 @@ class PetPage extends StatefulWidget {
 class _PetPageState extends State<PetPage> {
   @override
   Widget build(BuildContext context) {
-    return CustomScrollView(
-      slivers: <Widget>[
-        SliverAppBar(
-            backgroundColor: appBgColor,
-            pinned: true,
-            snap: true,
-            floating: true,
-            title: getHeader()),
-        SliverToBoxAdapter(child: getBody())
-      ],
+    return Scaffold(
+      backgroundColor: appBgColor,
+      body: CustomScrollView(
+        slivers: <Widget>[
+          SliverAppBar(
+              backgroundColor: appBgColor,
+              pinned: true,
+              snap: true,
+              floating: true,
+              title: getHeader()),
+          SliverToBoxAdapter(child: getBody())
+        ],
+      ),
     );
   }
 

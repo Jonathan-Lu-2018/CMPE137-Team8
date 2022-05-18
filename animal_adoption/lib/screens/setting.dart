@@ -2,8 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:pet_app/theme/color.dart';
-import 'package:pet_app/utils/data.dart';
-import 'package:pet_app/widgets/custom_image.dart';
 import 'package:pet_app/widgets/icon_box.dart';
 import 'package:pet_app/widgets/setting_item.dart';
 import 'package:pet_app/screens/home.dart';

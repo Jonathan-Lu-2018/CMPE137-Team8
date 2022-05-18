@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:glassmorphism_ui/glassmorphism_ui.dart';
 import 'package:pet_app/theme/color.dart';
 import 'package:pet_app/utils/constant.dart';
-import 'package:pet_app/utils/data.dart';
 import 'package:pet_app/widgets/attribute_box.dart';
 import 'package:pet_app/widgets/custom_button.dart';
 import 'package:pet_app/widgets/custom_image.dart';

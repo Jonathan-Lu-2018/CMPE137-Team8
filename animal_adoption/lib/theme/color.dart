@@ -1,16 +1,12 @@
 import 'package:flutter/material.dart';
 
-//const primary = Color(0xFF333333);
 const primary = Color(0xFFf5ba92);
-//const secondary = Color(0xFFe96561);
 const secondary = Colors.red;
 
 const darker = Color(0xFF3E4249);
 const cardColor = Colors.white;
 const mainColor = Color(0xFF000000);
-//const appBgColor = Color(0xFFF7F7F7);
 const appBgColor = Color(0xFFf5baAA);
-//const appBarColor = Color(0xFFF7F7F7);
 const appBarColor = Color(0xFFf5baAA);
 const shadowColor = Colors.black87;
 const textBoxColor = Colors.white;
